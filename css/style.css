@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --color1: rgb(66, 64, 161);
+  --color2: rgb(214, 212, 228);
+  --color3: rgb(228, 206, 206);
+  --color4: rgb(170, 178, 197);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea {
+  border: 1px solid var(--color1);
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  font-size: 20px;
+}
+
+button {
+  border: 1px solid var(--color1);
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: var(--color2);
+  color: rgb(170, 83, 83);
+  font-size: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color2);
+  padding: 10px 30px;
+  border-radius: 60px;
+}
+
+.header .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .menu a {
+  font-weight: 600;
+  color: black;
+}
+
+.content h1 span,
+.header span {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: var(--color4);
+}
+
+.content h1 {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.content .about {
+  display: flex;
+  justify-content: justify;
+  width: 100%;
+}
+
+.content .about img {
+  width: 300px;
+  height: 300px;
+  border-radius: 250px;
+  border: 15px solid var(--color3);
+}
+
+.content .description {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.content .toolbar {
+  display: flex;
+  gap: 20px;
+}
+
+.content .toolbar a {
+  background-color: var(--color3);
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  box-shadow: 3px 3px 8px var(--color4);
+}
+
+.section {
+  width: 90%;
+}
+
+.section .card {
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color3);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
+  gap: 40px;
+  box-shadow: 3px 3px 8px var(--color4);
+}
+
+.section .card h2 {
+  color: var(--color1);
+  font-size: 24px;
+}
+
+.section .card .left {
+  flex: 2;
+}
+
+.section .card .right {
+  flex: 3;
+}
+
+.section .form-row {
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px dotted gray;
+}
