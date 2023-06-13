@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VizInTooltipHideWorksheet />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Siparişler (Global+Superstore+Orders+2016 (1))' inline='true' name='federated.1rzlywx1y4i43y1ew26831g34i5q' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Global+Superstore+Orders+2016 (1)' name='excel-direct.1ndc2uy1t4o3g510dr3z7061r47b'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Data Files/Global+Superstore+Orders+2016 (1).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1ndc2uy1t4o3g510dr3z7061r47b' name='Siparişler' table='[Siparişler$]' type='table'>
+          <columns gridOrigin='A1:O1170:no:A1:O1170:0' header='yes' outcome='6'>
+            <column datatype='string' name='Sipariş ID' ordinal='0' />
+            <column datatype='date' name='Sipariş Tarihi' ordinal='1' />
+            <column datatype='date' name='Sevk Tarihi' ordinal='2' />
+            <column datatype='string' name='Müşteri ID' ordinal='3' />
+            <column datatype='string' name='Müşteri İsmi' ordinal='4' />
+            <column datatype='string' name='Segment' ordinal='5' />
+            <column datatype='string' name='Bölge' ordinal='6' />
+            <column datatype='string' name='İl' ordinal='7' />
+            <column datatype='string' name='İlçe' ordinal='8' />
+            <column datatype='string' name='Ürün ID' ordinal='9' />
+            <column datatype='string' name='Kategori' ordinal='10' />
+            <column datatype='string' name='Alt Kategori' ordinal='11' />
+            <column datatype='string' name='Ürün Adı' ordinal='12' />
+            <column datatype='real' name='Satış' ordinal='13' />
+            <column datatype='real' name='Kâr' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1ndc2uy1t4o3g510dr3z7061r47b' name='Siparişler' table='[Siparişler$]' type='table'>
+          <columns gridOrigin='A1:O1170:no:A1:O1170:0' header='yes' outcome='6'>
+            <column datatype='string' name='Sipariş ID' ordinal='0' />
+            <column datatype='date' name='Sipariş Tarihi' ordinal='1' />
+            <column datatype='date' name='Sevk Tarihi' ordinal='2' />
+            <column datatype='string' name='Müşteri ID' ordinal='3' />
+            <column datatype='string' name='Müşteri İsmi' ordinal='4' />
+            <column datatype='string' name='Segment' ordinal='5' />
+            <column datatype='string' name='Bölge' ordinal='6' />
+            <column datatype='string' name='İl' ordinal='7' />
+            <column datatype='string' name='İlçe' ordinal='8' />
+            <column datatype='string' name='Ürün ID' ordinal='9' />
+            <column datatype='string' name='Kategori' ordinal='10' />
+            <column datatype='string' name='Alt Kategori' ordinal='11' />
+            <column datatype='string' name='Ürün Adı' ordinal='12' />
+            <column datatype='real' name='Satış' ordinal='13' />
+            <column datatype='real' name='Kâr' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:O1170:no:A1:O1170:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sipariş ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sipariş ID]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Sipariş ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sipariş Tarihi</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Sipariş Tarihi]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Sipariş Tarihi</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sevk Tarihi</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Sevk Tarihi]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Sevk Tarihi</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Müşteri ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Müşteri ID]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Müşteri ID</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Müşteri İsmi</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Müşteri İsmi]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Müşteri İsmi</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bölge</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Bölge]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Bölge</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>İl</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[İl]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>İl</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>İlçe</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[İlçe]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>İlçe</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ürün ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ürün ID]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Ürün ID</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kategori</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Kategori]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Kategori</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alt Kategori</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Alt Kategori]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Alt Kategori</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ürün Adı</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ürün Adı]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Ürün Adı</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTR_RTR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Satış</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Satış]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Satış</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kâr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kâr]</local-name>
+            <parent-name>[Siparişler]</parent-name>
+            <remote-alias>Kâr</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Bölge]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Kategori]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Siparişler' datatype='table' name='[__tableau_internal_object_id__].[Siparişler_028BEADD27D743BB9B0BA80E6FD38849]' role='measure' type='quantitative' />
+      <column datatype='string' name='[İl]' role='dimension' type='nominal' />
+      <column-instance column='[Kategori]' derivation='None' name='[none:Kategori:nk]' pivot='key' type='nominal' />
+      <group caption='Tooltip (Bölge)' hidden='true' name='[Tooltip (Bölge)]' name-style='unqualified' user:auto-column='sheet_link' user:ui-vit-column='true'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Bölge]' />
+        </groupfilter>
+      </group>
+      <group caption='Tooltip (Bölge,İl)' hidden='true' name='[Tooltip (Bölge,İl)]' name-style='unqualified' user:auto-column='sheet_link' user:ui-vit-column='true'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Bölge]' />
+          <groupfilter function='level-members' level='[İl]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Kategori:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mobilya&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Teknoloji&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ofis Malzemeleri&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Turkey&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Siparişler' id='Siparişler_028BEADD27D743BB9B0BA80E6FD38849'>
+            <properties context=''>
+              <relation connection='excel-direct.1ndc2uy1t4o3g510dr3z7061r47b' name='Siparişler' table='[Siparişler$]' type='table'>
+                <columns gridOrigin='A1:O1170:no:A1:O1170:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Sipariş ID' ordinal='0' />
+                  <column datatype='date' name='Sipariş Tarihi' ordinal='1' />
+                  <column datatype='date' name='Sevk Tarihi' ordinal='2' />
+                  <column datatype='string' name='Müşteri ID' ordinal='3' />
+                  <column datatype='string' name='Müşteri İsmi' ordinal='4' />
+                  <column datatype='string' name='Segment' ordinal='5' />
+                  <column datatype='string' name='Bölge' ordinal='6' />
+                  <column datatype='string' name='İl' ordinal='7' />
+                  <column datatype='string' name='İlçe' ordinal='8' />
+                  <column datatype='string' name='Ürün ID' ordinal='9' />
+                  <column datatype='string' name='Kategori' ordinal='10' />
+                  <column datatype='string' name='Alt Kategori' ordinal='11' />
+                  <column datatype='string' name='Ürün Adı' ordinal='12' />
+                  <column datatype='real' name='Satış' ordinal='13' />
+                  <column datatype='real' name='Kâr' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='BolgeSales'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Siparişler (Global+Superstore+Orders+2016 (1))' name='federated.1rzlywx1y4i43y1ew26831g34i5q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rzlywx1y4i43y1ew26831g34i5q'>
+            <column datatype='string' name='[Bölge]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Satış]' role='measure' type='quantitative' />
+            <column-instance column='[Bölge]' derivation='None' name='[none:Bölge:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Satış]' derivation='Sum' name='[sum:Satış:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.1rzlywx1y4i43y1ew26831g34i5q].[none:Bölge:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'><![CDATA[<Sheet name="KategoriSales" maxwidth="250" maxheight="200" filter="<[federated.1rzlywx1y4i43y1ew26831g34i5q].[none:Bölge:nk]>"><Sheet name="SegmentSales" maxwidth="250" maxheight="200" filter="<All Fields>">]]></run>
+                <run>Æ&#10;&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rzlywx1y4i43y1ew26831g34i5q].[none:Bölge:nk]</rows>
+        <cols>[federated.1rzlywx1y4i43y1ew26831g34i5q].[sum:Satış:qk]</cols>
+      </table>
+      <simple-id uuid='{686A014B-062B-4438-8A0E-60797E13F17D}' />
+    </worksheet>
+    <worksheet name='KategoriSales'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Siparişler (Global+Superstore+Orders+2016 (1))' name='federated.1rzlywx1y4i43y1ew26831g34i5q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rzlywx1y4i43y1ew26831g34i5q'>
+            <column datatype='string' name='[Bölge]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Kategori]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Satış]' role='measure' type='quantitative' />
+            <column-instance column='[Kategori]' derivation='None' name='[none:Kategori:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Satış]' derivation='Sum' name='[sum:Satış:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rzlywx1y4i43y1ew26831g34i5q].[Tooltip (Bölge)]'>
+            <groupfilter function='level-members' level='[Bölge]' user:ui-action-filter='[Action - KategoriSales]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1rzlywx1y4i43y1ew26831g34i5q].[Tooltip (Bölge)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1rzlywx1y4i43y1ew26831g34i5q].[none:Kategori:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.0544751882553101' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rzlywx1y4i43y1ew26831g34i5q].[sum:Satış:qk]</rows>
+        <cols>[federated.1rzlywx1y4i43y1ew26831g34i5q].[none:Kategori:nk]</cols>
+      </table>
+      <simple-id uuid='{AD08777B-36C3-43C3-8EF4-A74976CF1C68}' />
+    </worksheet>
+    <worksheet name='SegmentSales'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Siparişler (Global+Superstore+Orders+2016 (1))' name='federated.1rzlywx1y4i43y1ew26831g34i5q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rzlywx1y4i43y1ew26831g34i5q'>
+            <column datatype='string' name='[Bölge]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Satış]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Segment]' role='dimension' type='nominal' />
+            <column-instance column='[Segment]' derivation='None' name='[none:Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Satış]' derivation='Sum' name='[sum:Satış:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rzlywx1y4i43y1ew26831g34i5q].[Tooltip (Bölge)]'>
+            <groupfilter function='level-members' level='[Bölge]' user:ui-action-filter='[Action - SegmentSales]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1rzlywx1y4i43y1ew26831g34i5q].[Tooltip (Bölge)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height-header' value='48' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rzlywx1y4i43y1ew26831g34i5q].[sum:Satış:qk]</rows>
+        <cols>[federated.1rzlywx1y4i43y1ew26831g34i5q].[none:Segment:nk]</cols>
+      </table>
+      <simple-id uuid='{DA51798F-A2B1-4DDC-9CAA-9BE0755B7FB3}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='BolgeSales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5BA06426-246B-448E-9E13-0DE3C4112071}' />
+    </window>
+    <window class='worksheet' name='KategoriSales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1rzlywx1y4i43y1ew26831g34i5q].[none:Kategori:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1BA8C39E-21B1-45EA-92C9-6C51B7B8F45B}' />
+    </window>
+    <window class='worksheet' name='SegmentSales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{63AED95F-6943-4AD1-9210-2B3D60E80BA9}' />
+    </window>
+  </windows>
+</workbook>
